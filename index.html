@@ -1,0 +1,79 @@
+<!-- notes -->
+	<!-- type html then press tab -->
+	<!-- adding attributes can change the behaviour of a tag -->
+	<!-- value container is pre-defineed for bootstrap -->
+	<!-- value container is user-defined if not for bootstrap -->
+	<!-- div and section is same? -->
+	<!-- class = grouping together, Id = for only one element -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Janine Casabon | Web Developer Portfolio</title>
+
+		<!-- external CSS -->
+		<link rel="stylesheet" type="text/css" href="index.css">
+
+		<!-- BOOTSTRAP -->
+		<!-- https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<!-- Google Fonts -->
+		<!-- https://fonts.google.com/ -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<!-- container and container-fluid -->
+		<!-- container creates a maximize the width
+		container-fluid maximize the screen -->
+		<div class="container-fluid">
+			<section class="text-center mt-5" id="landing">
+
+				<h1>Full Stack Web Developer</h1>
+				<p>Hi! My name is Janine Casabon and I love building things from scratch.</p>
+				<img src="./images/me.jpg" alt="profile" id="profile" class="img-fluid">
+				<a href="mailto:casabonjanine@gmail.com" class="btn btn-light btn-lg mt-3">Let's work together</a>
+
+			</section>
+		</div>
+
+		<footer>
+			<!-- target=blank for new tab -->
+			<!-- WEBSITE -->
+			<a href="" target="blank">
+				<i class="fa-solid fa-globe"></i>
+			</a>
+
+			<!-- FACEBOOK -->
+			<a href="https://www.facebook.com/ninecasabon/" target="blank">
+				<i class="fa-brands fa-facebook"></i>
+			</a>
+
+			<!-- INSTAGRAM -->
+			<a href="https://www.instagram.com/nuevesiyam9/" target="blank">
+				<i class="fa-brands fa-instagram"></i>
+			</a>
+
+			<!-- GITHUB -->
+			<a href="https://github.com/ninecasabon" target="blank">
+				<i class="fa-brands fa-github"></i>
+			</a>
+
+			<!-- LINKEDIN -->
+			<a href="https://www.linkedin.com/in/janine-casabon/" target="blank">
+				<i class="fa-brands fa-linkedin"></i>	
+			</a>
+		</footer>
+
+		<!-- it contains js for animations, so they are put in the end. Because every functions need to be loaded before their animations -->
+		<!-- go to fontawesome, click starter kit, copy script -->
+		<script src="https://kit.fontawesome.com/bedd9dc698.js" crossorigin="anonymous"></script>
+		<!-- BOOTSTRAP script -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	</body>
+</html>
